@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f7f7f7;
+  font-family: Karla, sans-serif;
+  width: 90%;
+  margin: 30px auto;
+}
+
+@import "navigation";
+@import "products";

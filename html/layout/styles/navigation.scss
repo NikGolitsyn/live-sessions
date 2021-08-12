@@ -1,0 +1,54 @@
+.navigation {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+
+  &__title {
+    flex-grow: 1;
+    margin: 0 auto;
+    font-size: 36px;
+    letter-spacing: 3.6px;
+  }
+
+  &__search {
+    display: flex;
+    margin: 25px auto;
+  }
+
+  &__filter,
+  &__sort {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__sort {
+    margin-left: 30px;
+  }
+}
+
+label {
+  font-size: 0.75em;
+  font-weight: 700;
+  color: #666;
+  text-transform: uppercase;
+}
+
+select {
+  width: 100px;
+  color: #333;
+  font-weight: 600;
+  border: 0;
+  background-color: #f7f7f7;
+  margin-top: 10px;
+  margin-right: -5px;
+}
+
+@media (min-width: 600px) {
+  .navigation {
+    flex-direction: row;
+
+    &__search {
+      margin: 0;
+    }
+  }
+}
