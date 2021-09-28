@@ -97,3 +97,14 @@ messanger.sendMessage('TestName');
 
 run();
 // scope область видимости за которыми переменные не видны
+// console.log(fun);
+// function fun() {
+//   console.log('RUN');
+// }
+
+// console.log(fun1);
+// const fun1 = () => {
+//   console.log('Fun');
+// };
+
+
